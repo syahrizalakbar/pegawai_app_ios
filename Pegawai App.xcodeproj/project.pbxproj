@@ -1,0 +1,884 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25831682BC8BDFD8A18FFCC2 /* Pods_Pegawai_App_Pegawai_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAED075ADFAFCE1841E2FD6 /* Pods_Pegawai_App_Pegawai_AppUITests.framework */; };
+		34F6BD66A7FD53BA2A2C0ADF /* Pods_Pegawai_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B42CC8C99B20A6D68DBCD08 /* Pods_Pegawai_App.framework */; };
+		6A41A7D927EF21FB006B35A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A41A7D827EF21FB006B35A6 /* AppDelegate.swift */; };
+		6A41A7DB27EF21FB006B35A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A41A7DA27EF21FB006B35A6 /* SceneDelegate.swift */; };
+		6A41A7DD27EF21FB006B35A6 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A41A7DC27EF21FB006B35A6 /* MainController.swift */; };
+		6A41A7E027EF21FB006B35A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A41A7DE27EF21FB006B35A6 /* Main.storyboard */; };
+		6A41A7E227EF21FC006B35A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A41A7E127EF21FC006B35A6 /* Assets.xcassets */; };
+		6A41A7E527EF21FC006B35A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A41A7E327EF21FC006B35A6 /* LaunchScreen.storyboard */; };
+		6A41A7F027EF21FD006B35A6 /* Pegawai_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A41A7EF27EF21FD006B35A6 /* Pegawai_AppTests.swift */; };
+		6A41A7FB27EF21FD006B35A6 /* Pegawai_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A41A7FA27EF21FD006B35A6 /* Pegawai_AppUITests.swift */; };
+		6A41A80D27EF268D006B35A6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A41A80C27EF268D006B35A6 /* Constant.swift */; };
+		6A41A80F27EF26DC006B35A6 /* PegawaiRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A41A80E27EF26DC006B35A6 /* PegawaiRepository.swift */; };
+		6A41A81227EF3A25006B35A6 /* Pegawai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A41A81127EF3A25006B35A6 /* Pegawai.swift */; };
+		6A41A81627EF455B006B35A6 /* GetPegawai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A41A81527EF455B006B35A6 /* GetPegawai.swift */; };
+		6A41A81B27EFAB08006B35A6 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A41A81A27EFAB08006B35A6 /* MainViewModel.swift */; };
+		6A41A81D27EFEF3A006B35A6 /* DetailPegawaiController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A41A81C27EFEF3A006B35A6 /* DetailPegawaiController.xib */; };
+		6A41A81F27EFF28C006B35A6 /* DetailPegawaiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A41A81E27EFF28C006B35A6 /* DetailPegawaiController.swift */; };
+		6A41A82327F00A10006B35A6 /* EditPegawaiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A41A82127F00A10006B35A6 /* EditPegawaiController.swift */; };
+		6A41A82427F00A10006B35A6 /* EditPegawaiController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A41A82227F00A10006B35A6 /* EditPegawaiController.xib */; };
+		6A41A82627F0147D006B35A6 /* EditPegawai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A41A82527F0147D006B35A6 /* EditPegawai.swift */; };
+		6A41A82827F01D2C006B35A6 /* EditPegawaiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A41A82727F01D2C006B35A6 /* EditPegawaiViewModel.swift */; };
+		6A41A82A27F03A65006B35A6 /* HttpInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A41A82927F03A65006B35A6 /* HttpInterceptor.swift */; };
+		6A41A82C27F04503006B35A6 /* DeletePegawai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A41A82B27F04503006B35A6 /* DeletePegawai.swift */; };
+		6A41A82E27F045E9006B35A6 /* AddPegawai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A41A82D27F045E9006B35A6 /* AddPegawai.swift */; };
+		6A41A83027F04805006B35A6 /* DetailPegawaiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A41A82F27F04805006B35A6 /* DetailPegawaiViewModel.swift */; };
+		6A41A83827F04B49006B35A6 /* AddPegawaiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A41A83627F04B49006B35A6 /* AddPegawaiController.swift */; };
+		6A41A83927F04B49006B35A6 /* AddPegawaiController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A41A83727F04B49006B35A6 /* AddPegawaiController.xib */; };
+		6AEE94D927F04F8200BAF74A /* AddPegawaiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEE94D827F04F8200BAF74A /* AddPegawaiViewModel.swift */; };
+		6AEE94DB27F06D3E00BAF74A /* ItemPegawaiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEE94DA27F06D3E00BAF74A /* ItemPegawaiCell.swift */; };
+		DD3A947E47650D3E3357EE6B /* Pods_Pegawai_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55692FCC67AB0071AE289BCF /* Pods_Pegawai_AppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A41A7EC27EF21FD006B35A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A41A7CD27EF21FB006B35A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A41A7D427EF21FB006B35A6;
+			remoteInfo = "Pegawai App";
+		};
+		6A41A7F727EF21FD006B35A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A41A7CD27EF21FB006B35A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A41A7D427EF21FB006B35A6;
+			remoteInfo = "Pegawai App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A7BDF48AFFCE1FC6CD9883C /* Pods-Pegawai AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pegawai AppTests.release.xcconfig"; path = "Target Support Files/Pods-Pegawai AppTests/Pods-Pegawai AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		2913A60ADD04915284AED93E /* Pods-Pegawai App-Pegawai AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pegawai App-Pegawai AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pegawai App-Pegawai AppUITests/Pods-Pegawai App-Pegawai AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CE29C92D561647B34BD078A /* Pods-Pegawai App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pegawai App.release.xcconfig"; path = "Target Support Files/Pods-Pegawai App/Pods-Pegawai App.release.xcconfig"; sourceTree = "<group>"; };
+		55692FCC67AB0071AE289BCF /* Pods_Pegawai_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pegawai_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A41A7D527EF21FB006B35A6 /* Pegawai App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pegawai App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A41A7D827EF21FB006B35A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A41A7DA27EF21FB006B35A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6A41A7DC27EF21FB006B35A6 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		6A41A7DF27EF21FB006B35A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A41A7E127EF21FC006B35A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A41A7E427EF21FC006B35A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A41A7E627EF21FC006B35A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A41A7EB27EF21FD006B35A6 /* Pegawai AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pegawai AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A41A7EF27EF21FD006B35A6 /* Pegawai_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pegawai_AppTests.swift; sourceTree = "<group>"; };
+		6A41A7F127EF21FD006B35A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A41A7F627EF21FD006B35A6 /* Pegawai AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pegawai AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A41A7FA27EF21FD006B35A6 /* Pegawai_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pegawai_AppUITests.swift; sourceTree = "<group>"; };
+		6A41A7FC27EF21FD006B35A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A41A80C27EF268D006B35A6 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		6A41A80E27EF26DC006B35A6 /* PegawaiRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PegawaiRepository.swift; sourceTree = "<group>"; };
+		6A41A81127EF3A25006B35A6 /* Pegawai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pegawai.swift; sourceTree = "<group>"; };
+		6A41A81527EF455B006B35A6 /* GetPegawai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPegawai.swift; sourceTree = "<group>"; };
+		6A41A81A27EFAB08006B35A6 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		6A41A81C27EFEF3A006B35A6 /* DetailPegawaiController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailPegawaiController.xib; sourceTree = "<group>"; };
+		6A41A81E27EFF28C006B35A6 /* DetailPegawaiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPegawaiController.swift; sourceTree = "<group>"; };
+		6A41A82127F00A10006B35A6 /* EditPegawaiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPegawaiController.swift; sourceTree = "<group>"; };
+		6A41A82227F00A10006B35A6 /* EditPegawaiController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditPegawaiController.xib; sourceTree = "<group>"; };
+		6A41A82527F0147D006B35A6 /* EditPegawai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPegawai.swift; sourceTree = "<group>"; };
+		6A41A82727F01D2C006B35A6 /* EditPegawaiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPegawaiViewModel.swift; sourceTree = "<group>"; };
+		6A41A82927F03A65006B35A6 /* HttpInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpInterceptor.swift; sourceTree = "<group>"; };
+		6A41A82B27F04503006B35A6 /* DeletePegawai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletePegawai.swift; sourceTree = "<group>"; };
+		6A41A82D27F045E9006B35A6 /* AddPegawai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPegawai.swift; sourceTree = "<group>"; };
+		6A41A82F27F04805006B35A6 /* DetailPegawaiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPegawaiViewModel.swift; sourceTree = "<group>"; };
+		6A41A83627F04B49006B35A6 /* AddPegawaiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPegawaiController.swift; sourceTree = "<group>"; };
+		6A41A83727F04B49006B35A6 /* AddPegawaiController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddPegawaiController.xib; sourceTree = "<group>"; };
+		6AEE94D827F04F8200BAF74A /* AddPegawaiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPegawaiViewModel.swift; sourceTree = "<group>"; };
+		6AEE94DA27F06D3E00BAF74A /* ItemPegawaiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPegawaiCell.swift; sourceTree = "<group>"; };
+		6AF1DB1371802B0C9123B14D /* Pods-Pegawai App-Pegawai AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pegawai App-Pegawai AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Pegawai App-Pegawai AppUITests/Pods-Pegawai App-Pegawai AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84FC49CF175E6ABD9F350C6C /* Pods-Pegawai AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pegawai AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Pegawai AppTests/Pods-Pegawai AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B42CC8C99B20A6D68DBCD08 /* Pods_Pegawai_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pegawai_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC47F14FEF336C96C35318AB /* Pods-Pegawai App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pegawai App.debug.xcconfig"; path = "Target Support Files/Pods-Pegawai App/Pods-Pegawai App.debug.xcconfig"; sourceTree = "<group>"; };
+		EDAED075ADFAFCE1841E2FD6 /* Pods_Pegawai_App_Pegawai_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pegawai_App_Pegawai_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A41A7D227EF21FB006B35A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F6BD66A7FD53BA2A2C0ADF /* Pods_Pegawai_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A41A7E827EF21FD006B35A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3A947E47650D3E3357EE6B /* Pods_Pegawai_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A41A7F327EF21FD006B35A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25831682BC8BDFD8A18FFCC2 /* Pods_Pegawai_App_Pegawai_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A41A7CC27EF21FB006B35A6 = {
+			isa = PBXGroup;
+			children = (
+				6A41A7D727EF21FB006B35A6 /* Pegawai App */,
+				6A41A7EE27EF21FD006B35A6 /* Pegawai AppTests */,
+				6A41A7F927EF21FD006B35A6 /* Pegawai AppUITests */,
+				6A41A7D627EF21FB006B35A6 /* Products */,
+				7E248CFB509E704885F225F6 /* Pods */,
+				FAE38D5E7A1BA0A189AF0A1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A41A7D627EF21FB006B35A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A41A7D527EF21FB006B35A6 /* Pegawai App.app */,
+				6A41A7EB27EF21FD006B35A6 /* Pegawai AppTests.xctest */,
+				6A41A7F627EF21FD006B35A6 /* Pegawai AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A41A7D727EF21FB006B35A6 /* Pegawai App */ = {
+			isa = PBXGroup;
+			children = (
+				6A41A81027EF3A16006B35A6 /* model */,
+				6A41A80B27EF2649006B35A6 /* repositories */,
+				6A41A80A27EF2615006B35A6 /* utils */,
+				6A41A80927EF2267006B35A6 /* view */,
+				6A41A7D827EF21FB006B35A6 /* AppDelegate.swift */,
+				6A41A7DA27EF21FB006B35A6 /* SceneDelegate.swift */,
+				6AEE94DA27F06D3E00BAF74A /* ItemPegawaiCell.swift */,
+				6A41A81A27EFAB08006B35A6 /* MainViewModel.swift */,
+				6A41A7DC27EF21FB006B35A6 /* MainController.swift */,
+				6A41A7DE27EF21FB006B35A6 /* Main.storyboard */,
+				6A41A7E127EF21FC006B35A6 /* Assets.xcassets */,
+				6A41A7E327EF21FC006B35A6 /* LaunchScreen.storyboard */,
+				6A41A7E627EF21FC006B35A6 /* Info.plist */,
+			);
+			path = "Pegawai App";
+			sourceTree = "<group>";
+		};
+		6A41A7EE27EF21FD006B35A6 /* Pegawai AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A41A7EF27EF21FD006B35A6 /* Pegawai_AppTests.swift */,
+				6A41A7F127EF21FD006B35A6 /* Info.plist */,
+			);
+			path = "Pegawai AppTests";
+			sourceTree = "<group>";
+		};
+		6A41A7F927EF21FD006B35A6 /* Pegawai AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A41A7FA27EF21FD006B35A6 /* Pegawai_AppUITests.swift */,
+				6A41A7FC27EF21FD006B35A6 /* Info.plist */,
+			);
+			path = "Pegawai AppUITests";
+			sourceTree = "<group>";
+		};
+		6A41A80927EF2267006B35A6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6A41A83127F04B10006B35A6 /* add_pegawai */,
+				6A41A82027F009D2006B35A6 /* edit_pegawai */,
+				6A41A81427EF443A006B35A6 /* detail_pegawai */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6A41A80A27EF2615006B35A6 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				6A41A80C27EF268D006B35A6 /* Constant.swift */,
+				6A41A82927F03A65006B35A6 /* HttpInterceptor.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		6A41A80B27EF2649006B35A6 /* repositories */ = {
+			isa = PBXGroup;
+			children = (
+				6A41A80E27EF26DC006B35A6 /* PegawaiRepository.swift */,
+			);
+			path = repositories;
+			sourceTree = "<group>";
+		};
+		6A41A81027EF3A16006B35A6 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6A41A81127EF3A25006B35A6 /* Pegawai.swift */,
+				6A41A81527EF455B006B35A6 /* GetPegawai.swift */,
+				6A41A82527F0147D006B35A6 /* EditPegawai.swift */,
+				6A41A82B27F04503006B35A6 /* DeletePegawai.swift */,
+				6A41A82D27F045E9006B35A6 /* AddPegawai.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6A41A81427EF443A006B35A6 /* detail_pegawai */ = {
+			isa = PBXGroup;
+			children = (
+				6A41A81C27EFEF3A006B35A6 /* DetailPegawaiController.xib */,
+				6A41A81E27EFF28C006B35A6 /* DetailPegawaiController.swift */,
+				6A41A82F27F04805006B35A6 /* DetailPegawaiViewModel.swift */,
+			);
+			path = detail_pegawai;
+			sourceTree = "<group>";
+		};
+		6A41A82027F009D2006B35A6 /* edit_pegawai */ = {
+			isa = PBXGroup;
+			children = (
+				6A41A82127F00A10006B35A6 /* EditPegawaiController.swift */,
+				6A41A82227F00A10006B35A6 /* EditPegawaiController.xib */,
+				6A41A82727F01D2C006B35A6 /* EditPegawaiViewModel.swift */,
+			);
+			path = edit_pegawai;
+			sourceTree = "<group>";
+		};
+		6A41A83127F04B10006B35A6 /* add_pegawai */ = {
+			isa = PBXGroup;
+			children = (
+				6A41A83627F04B49006B35A6 /* AddPegawaiController.swift */,
+				6A41A83727F04B49006B35A6 /* AddPegawaiController.xib */,
+				6AEE94D827F04F8200BAF74A /* AddPegawaiViewModel.swift */,
+			);
+			path = add_pegawai;
+			sourceTree = "<group>";
+		};
+		7E248CFB509E704885F225F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC47F14FEF336C96C35318AB /* Pods-Pegawai App.debug.xcconfig */,
+				4CE29C92D561647B34BD078A /* Pods-Pegawai App.release.xcconfig */,
+				2913A60ADD04915284AED93E /* Pods-Pegawai App-Pegawai AppUITests.debug.xcconfig */,
+				6AF1DB1371802B0C9123B14D /* Pods-Pegawai App-Pegawai AppUITests.release.xcconfig */,
+				84FC49CF175E6ABD9F350C6C /* Pods-Pegawai AppTests.debug.xcconfig */,
+				0A7BDF48AFFCE1FC6CD9883C /* Pods-Pegawai AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FAE38D5E7A1BA0A189AF0A1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B42CC8C99B20A6D68DBCD08 /* Pods_Pegawai_App.framework */,
+				EDAED075ADFAFCE1841E2FD6 /* Pods_Pegawai_App_Pegawai_AppUITests.framework */,
+				55692FCC67AB0071AE289BCF /* Pods_Pegawai_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A41A7D427EF21FB006B35A6 /* Pegawai App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A41A7FF27EF21FD006B35A6 /* Build configuration list for PBXNativeTarget "Pegawai App" */;
+			buildPhases = (
+				F22C201715103C5EDBEB4D24 /* [CP] Check Pods Manifest.lock */,
+				6A41A7D127EF21FB006B35A6 /* Sources */,
+				6A41A7D227EF21FB006B35A6 /* Frameworks */,
+				6A41A7D327EF21FB006B35A6 /* Resources */,
+				84B8D820ECA8419A501CF5AC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pegawai App";
+			productName = "Pegawai App";
+			productReference = 6A41A7D527EF21FB006B35A6 /* Pegawai App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A41A7EA27EF21FD006B35A6 /* Pegawai AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A41A80227EF21FD006B35A6 /* Build configuration list for PBXNativeTarget "Pegawai AppTests" */;
+			buildPhases = (
+				CB56B5F017308CC2D0315941 /* [CP] Check Pods Manifest.lock */,
+				6A41A7E727EF21FD006B35A6 /* Sources */,
+				6A41A7E827EF21FD006B35A6 /* Frameworks */,
+				6A41A7E927EF21FD006B35A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A41A7ED27EF21FD006B35A6 /* PBXTargetDependency */,
+			);
+			name = "Pegawai AppTests";
+			productName = "Pegawai AppTests";
+			productReference = 6A41A7EB27EF21FD006B35A6 /* Pegawai AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A41A7F527EF21FD006B35A6 /* Pegawai AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A41A80527EF21FD006B35A6 /* Build configuration list for PBXNativeTarget "Pegawai AppUITests" */;
+			buildPhases = (
+				E53D2C706C14AE9252857584 /* [CP] Check Pods Manifest.lock */,
+				6A41A7F227EF21FD006B35A6 /* Sources */,
+				6A41A7F327EF21FD006B35A6 /* Frameworks */,
+				6A41A7F427EF21FD006B35A6 /* Resources */,
+				328F6A4F24C49D742A7815AA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A41A7F827EF21FD006B35A6 /* PBXTargetDependency */,
+			);
+			name = "Pegawai AppUITests";
+			productName = "Pegawai AppUITests";
+			productReference = 6A41A7F627EF21FD006B35A6 /* Pegawai AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A41A7CD27EF21FB006B35A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6A41A7D427EF21FB006B35A6 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					6A41A7EA27EF21FD006B35A6 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 6A41A7D427EF21FB006B35A6;
+					};
+					6A41A7F527EF21FD006B35A6 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 6A41A7D427EF21FB006B35A6;
+					};
+				};
+			};
+			buildConfigurationList = 6A41A7D027EF21FB006B35A6 /* Build configuration list for PBXProject "Pegawai App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A41A7CC27EF21FB006B35A6;
+			productRefGroup = 6A41A7D627EF21FB006B35A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A41A7D427EF21FB006B35A6 /* Pegawai App */,
+				6A41A7EA27EF21FD006B35A6 /* Pegawai AppTests */,
+				6A41A7F527EF21FD006B35A6 /* Pegawai AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A41A7D327EF21FB006B35A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A41A7E527EF21FC006B35A6 /* LaunchScreen.storyboard in Resources */,
+				6A41A82427F00A10006B35A6 /* EditPegawaiController.xib in Resources */,
+				6A41A81D27EFEF3A006B35A6 /* DetailPegawaiController.xib in Resources */,
+				6A41A83927F04B49006B35A6 /* AddPegawaiController.xib in Resources */,
+				6A41A7E227EF21FC006B35A6 /* Assets.xcassets in Resources */,
+				6A41A7E027EF21FB006B35A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A41A7E927EF21FD006B35A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A41A7F427EF21FD006B35A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		328F6A4F24C49D742A7815AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pegawai App-Pegawai AppUITests/Pods-Pegawai App-Pegawai AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pegawai App-Pegawai AppUITests/Pods-Pegawai App-Pegawai AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pegawai App-Pegawai AppUITests/Pods-Pegawai App-Pegawai AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84B8D820ECA8419A501CF5AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pegawai App/Pods-Pegawai App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pegawai App/Pods-Pegawai App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pegawai App/Pods-Pegawai App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB56B5F017308CC2D0315941 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pegawai AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E53D2C706C14AE9252857584 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pegawai App-Pegawai AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F22C201715103C5EDBEB4D24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pegawai App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A41A7D127EF21FB006B35A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A41A7DD27EF21FB006B35A6 /* MainController.swift in Sources */,
+				6A41A82C27F04503006B35A6 /* DeletePegawai.swift in Sources */,
+				6A41A80F27EF26DC006B35A6 /* PegawaiRepository.swift in Sources */,
+				6A41A82A27F03A65006B35A6 /* HttpInterceptor.swift in Sources */,
+				6A41A83027F04805006B35A6 /* DetailPegawaiViewModel.swift in Sources */,
+				6AEE94D927F04F8200BAF74A /* AddPegawaiViewModel.swift in Sources */,
+				6A41A81227EF3A25006B35A6 /* Pegawai.swift in Sources */,
+				6A41A82E27F045E9006B35A6 /* AddPegawai.swift in Sources */,
+				6A41A81F27EFF28C006B35A6 /* DetailPegawaiController.swift in Sources */,
+				6AEE94DB27F06D3E00BAF74A /* ItemPegawaiCell.swift in Sources */,
+				6A41A82327F00A10006B35A6 /* EditPegawaiController.swift in Sources */,
+				6A41A81627EF455B006B35A6 /* GetPegawai.swift in Sources */,
+				6A41A7D927EF21FB006B35A6 /* AppDelegate.swift in Sources */,
+				6A41A83827F04B49006B35A6 /* AddPegawaiController.swift in Sources */,
+				6A41A7DB27EF21FB006B35A6 /* SceneDelegate.swift in Sources */,
+				6A41A80D27EF268D006B35A6 /* Constant.swift in Sources */,
+				6A41A82827F01D2C006B35A6 /* EditPegawaiViewModel.swift in Sources */,
+				6A41A82627F0147D006B35A6 /* EditPegawai.swift in Sources */,
+				6A41A81B27EFAB08006B35A6 /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A41A7E727EF21FD006B35A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A41A7F027EF21FD006B35A6 /* Pegawai_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A41A7F227EF21FD006B35A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A41A7FB27EF21FD006B35A6 /* Pegawai_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A41A7ED27EF21FD006B35A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A41A7D427EF21FB006B35A6 /* Pegawai App */;
+			targetProxy = 6A41A7EC27EF21FD006B35A6 /* PBXContainerItemProxy */;
+		};
+		6A41A7F827EF21FD006B35A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A41A7D427EF21FB006B35A6 /* Pegawai App */;
+			targetProxy = 6A41A7F727EF21FD006B35A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A41A7DE27EF21FB006B35A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A41A7DF27EF21FB006B35A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A41A7E327EF21FC006B35A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A41A7E427EF21FC006B35A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A41A7FD27EF21FD006B35A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A41A7FE27EF21FD006B35A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A41A80027EF21FD006B35A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC47F14FEF336C96C35318AB /* Pods-Pegawai App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX58DJYWM9;
+				INFOPLIST_FILE = "Pegawai App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idouda.Pegawai-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A41A80127EF21FD006B35A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CE29C92D561647B34BD078A /* Pods-Pegawai App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX58DJYWM9;
+				INFOPLIST_FILE = "Pegawai App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idouda.Pegawai-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A41A80327EF21FD006B35A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84FC49CF175E6ABD9F350C6C /* Pods-Pegawai AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX58DJYWM9;
+				INFOPLIST_FILE = "Pegawai AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idouda.Pegawai-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pegawai App.app/Pegawai App";
+			};
+			name = Debug;
+		};
+		6A41A80427EF21FD006B35A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A7BDF48AFFCE1FC6CD9883C /* Pods-Pegawai AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX58DJYWM9;
+				INFOPLIST_FILE = "Pegawai AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idouda.Pegawai-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pegawai App.app/Pegawai App";
+			};
+			name = Release;
+		};
+		6A41A80627EF21FD006B35A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2913A60ADD04915284AED93E /* Pods-Pegawai App-Pegawai AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX58DJYWM9;
+				INFOPLIST_FILE = "Pegawai AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idouda.Pegawai-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pegawai App";
+			};
+			name = Debug;
+		};
+		6A41A80727EF21FD006B35A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AF1DB1371802B0C9123B14D /* Pods-Pegawai App-Pegawai AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX58DJYWM9;
+				INFOPLIST_FILE = "Pegawai AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idouda.Pegawai-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pegawai App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A41A7D027EF21FB006B35A6 /* Build configuration list for PBXProject "Pegawai App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A41A7FD27EF21FD006B35A6 /* Debug */,
+				6A41A7FE27EF21FD006B35A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A41A7FF27EF21FD006B35A6 /* Build configuration list for PBXNativeTarget "Pegawai App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A41A80027EF21FD006B35A6 /* Debug */,
+				6A41A80127EF21FD006B35A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A41A80227EF21FD006B35A6 /* Build configuration list for PBXNativeTarget "Pegawai AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A41A80327EF21FD006B35A6 /* Debug */,
+				6A41A80427EF21FD006B35A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A41A80527EF21FD006B35A6 /* Build configuration list for PBXNativeTarget "Pegawai AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A41A80627EF21FD006B35A6 /* Debug */,
+				6A41A80727EF21FD006B35A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A41A7CD27EF21FB006B35A6 /* Project object */;
+}
